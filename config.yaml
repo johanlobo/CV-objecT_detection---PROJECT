@@ -1,5 +1,5 @@
 model_path: "yolov8n.pt"
-video_source: 0 # "traffic.mp4 for video source"
+video_source: 0      # OR  "some_video.mp4 for video source"
 vehicle_classes:
   - car
   - truck
