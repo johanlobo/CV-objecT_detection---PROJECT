@@ -1,0 +1,9 @@
+model_path: "yolov8n.pt"
+video_source: "traffic.mp4"
+vehicle_classes:
+  - car
+  - truck
+  - bus
+  - motorcycle
+  - bicycle
+confidence_threshold: 0.5
