@@ -3,7 +3,7 @@ import yaml
 
 class Config(BaseModel):
     model_path: str
-    video_source: str|int
+    video_source: int|str
     vehicle_classes: list[str]
     confidence_threshold: float
 
