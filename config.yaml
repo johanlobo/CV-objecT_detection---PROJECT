@@ -1,5 +1,5 @@
 model_path: "yolov8n.pt"
-video_source: "traffic.mp4" # replace with 0 for webcam
+video_source: "traffic.mp4"
 vehicle_classes:
   - car
   - truck
